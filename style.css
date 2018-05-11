@@ -1,0 +1,77 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.titlelogo{
+    width: 15%;
+    height: 50px;
+    float: left;
+    background-color:rgb(23, 27, 33);
+    box-shadow: 2px 0px 5px grey; 
+}
+.headerbar{
+    width: 60%;
+    height: 50px;
+    float: left;
+    background-color: rgb(237, 239, 242);
+}
+.user{
+width: 15%;
+height: 50px;
+float: left;
+background-color: rgb(237, 239, 242);
+}
+.search{
+    width: 5%;
+    height: 50px;
+    float: left;
+    background-color: rgb(237, 239, 242);
+}
+.hidedetails{
+    width: 5%;
+    height: 50px;
+    float: left;
+    background-color: rgb(237, 239, 242);
+}
+.sidebar{
+    width: 15%;
+    height: 630px;
+    float: left;
+    background-color:rgb(42, 48, 58);
+}
+.filepath{
+width: 65%;
+height: 150px;
+float: left;
+background-color: darkgray;
+}
+.settings{
+    width: 20%;
+    height: 150px;
+    float: left;
+    background-color: rgb(55, 64, 76);
+}
+.table{
+width: 65%;
+height: 430px;
+float: left;
+background-color: white;
+}
+.filedetails{
+width: 20%;
+height: 430px;
+float: left;
+background-color: white;
+}
+.footer{
+    width: 85%;
+    height: 50px;
+    float: left;
+    background-color: rgb(34, 39, 45);
+}
+.details-table th,td{
+    padding: 10px;
+}
+.fileimg{
+    height: 140px;
+}
