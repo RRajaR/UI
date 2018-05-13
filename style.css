@@ -43,7 +43,8 @@ background-color: rgb(237, 239, 242);
 width: 65%;
 height: 150px;
 float: left;
-background-color: darkgray;
+background-image: url("http://eskipaper.com/images/plain-backgrounds-5.jpg");
+
 }
 .settings{
     width: 20%;
@@ -61,7 +62,6 @@ background-color: white;
 width: 20%;
 height: 430px;
 float: left;
-background-color: white;
 }
 .footer{
     width: 85%;
@@ -69,9 +69,129 @@ background-color: white;
     float: left;
     background-color: rgb(34, 39, 45);
 }
-.details-table th,td{
+.details th{
     padding: 10px;
+
 }
 .fileimg{
     height: 140px;
+}
+.filetabel table{
+    max-width:100%;
+    table-layout:fixed;
+    margin:auto;   
+    overflow: hidden;
+}
+.filetable th{
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+}
+.filetable td{
+    padding:10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.filetable thead{
+     background:#f9f9f9;
+    display:table;
+    width:100%;
+    width:calc(100% - 18px);
+}
+.filetable tbody {
+    height:380px;
+    overflow: auto;
+    display:block;
+    width:100%;
+}
+.filetable tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+    text-align: center;
+}
+.menuicon div{
+     width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.fa fa-bars{
+background-color: white;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px 8px;
+    font-size: 16px;
+}
+
+.download{
+    color: white;
+}
+
+.threedotsicon div{
+     width: 1px;
+    height: 2px;
+    border-radius: 3px;
+    background-color: white;
+    margin: 6px 0;
+    float: left;
+}
+.trash{
+    float: left;
+}
+.gearicon{
+    background-color: Dodgerblue;
+}
+
+.sidenavbar {
+    z-index: 1;
+   background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    width: 15%;
+    height: 630px;
+    float: left;
+}
+.sidenavbar a, .dropdown-btn {
+    padding: 13px 8px 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.sidenavbar i {
+  margin-right: 10px;
+}
+
+.sidenavbar a:hover{
+    background-color: Dodgerblue;
+    color: white;
+}
+.Section{
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    height: 20px;
+    text-align: left;
+}
+.plusbtn{
+    position: absolute;
+    z-index: 5;
+    top: 185px;
+    left: 220px;
+    box-shadow: 10px 10px 12px 3px rgba(0, 0, 0, 0.2);
+    width:25px;height:25px;
+    border:1px #555;
+    border-radius:100px;
 }
