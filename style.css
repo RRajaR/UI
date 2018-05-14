@@ -6,7 +6,7 @@ html,body{
     width: 15%;
     height: 50px;
     float: left;
-    background-color:white;
+    background-color:rgb(40, 44, 51);
     box-shadow: 2px 0px 5px grey; 
 }
 .headerbar{
@@ -43,7 +43,7 @@ background-color: rgb(237, 239, 242);
 width: 65%;
 height: 150px;
 float: left;
-background-image: url("assignment2.jpwg");
+background-image: url("https://wallpaper-house.com/data/out/10/wallpaper2you_408654.jpg");
 w
 }
 .settings{
@@ -63,12 +63,17 @@ width: 20%;
 height: 430px;
 float: left;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: transparent;
+}
 .footer{
     width: 85%;
     height: 50px;
     float: left;
     background-color: rgb(34, 39, 45);
 }
+
 .details th{
     padding: 10px;
 
@@ -110,10 +115,13 @@ float: left;
     text-align: center;
 }
 .menuicon div{
+    position: relative;
      width: 25px;
     height: 2px;
     background-color: white;
     margin: 6px 0;
+    top: 10px;
+    left: 20px;
 }
 
 .fa fa-bars{
@@ -121,16 +129,21 @@ background-color: white;
 }
 
 .btn {
+    position: relative;
     background-color: DodgerBlue;
     border: none;
     border-radius: 2px;
     color: white;
     padding: 8px 8px;
     font-size: 16px;
+    top: 8px;
 }
 
 .download{
+    position: relative;
     color: white;
+    top: 10px;
+    left: 180px;
 }
 
 .threedotsicon div{
@@ -142,16 +155,21 @@ background-color: white;
     float: left;
 }
 .trash{
+    position: relative;
     float: left;
+    color: white;
+    top: -8px;
+    left: 220px;
 }
 .gearicon{
     position: relative;
     background-color: Dodgerblue;
     color:white;
     top: 80px;
-    left: 230px;
+    left: 220px;
     border-style: none;
     padding: 5px 3px 5px 10px;
+    border-radius:3px;
 }
 
 .sidenavbar {
@@ -160,7 +178,7 @@ background-color: white;
     overflow-x: hidden;
     padding-top: 20px;
     width: 15%;
-    height: 630px;
+    height: 610px;
     float: left;
 }
 .sidenavbar a, .dropdown-btn {
@@ -205,4 +223,63 @@ background-color: white;
     width: 50px;
     height: 30px;
     padding-top: 10px;
+}
+.filepathname{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    top:80px;
+    left: 50px;
+}
+.ca{
+    color: yellow;
+}
+.folderimg{
+    position: relative;
+    top: -50px;
+    left: 120px;
+    color: yellowgreen;
+}
+.footicons{
+    position: relative;
+    top: -30px;
+    left: 1000px;
+    color: teal;
+}
+.guest{
+    position: relative;
+    top: 10px;
+    left: -40px;
+}
+.uname{
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+.cc{
+padding: 10px;
+
+}
+.cd{
+padding-top: 10px;  
+}
+.hidebtn{
+    padding-top: 10px; 
+}
+.fusetext{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.fileedit{
+    position: relative;
+    color: white;
+    font-size: 12px;
+    bottom: -30px;
+}
+.ce{
+    position: relative;
+    left: 60px;
+    color: white;
+    top: -10px;
 }
